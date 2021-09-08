@@ -1,0 +1,511 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400;1,500&display=swap');
+
+
+body{
+  background-color: #f8f8f8 !important;
+  font-family: 'Poppins', sans-serif !important;
+  height: 100% !important;
+}
+
+/* navbar css style here */
+.navbar{
+  background-color: #f8f8f8 !important;
+}
+
+.navbar-brand{
+  color: rgb(7, 192, 248) !important;
+  margin-left: 15px !important;
+  letter-spacing: 5px !important;
+  font-weight: bold !important;
+  font-size: 25px !important;
+
+}
+
+.navbar-brand span {
+  letter-spacing: 5px !important;
+  color: #000;
+}
+
+
+
+
+/* signup page code  */
+
+.container{
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 0 auto;
+  position: relative;
+  box-shadow: 0px 15px 16.83px 0.17px rgb(0,0,0,0.05);
+  border-radius: 10px;
+  margin-bottom: 5px !important;
+  margin-top: 10px !important;
+
+}
+
+
+.signup{
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 0 auto;
+}
+
+
+.signup-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.signup-form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  width: 50%;
+
+}
+
+.form-title{
+  margin-bottom: 33px;
+  font-weight: bold;
+}
+
+.register-form{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   padding: 20px;
+   width: 100%;
+
+}
+
+
+.form-group{
+  padding: 10px;
+}
+
+
+
+.material-icons-name{
+  font-size: 20px;
+  padding-right: 7px;
+}
+
+.form-group:last-child{
+  margin-bottom: 0px;
+}
+
+
+input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 6px 30px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+input::placeholder{
+  font-weight: 16px;
+  color:rgb(0,0,0,0.5);
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif !important;
+
+}
+
+.material-icons-name{
+  font-size: 18px;
+}
+
+.testing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input:focus{
+  border-bottom: 1px solid #222;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+.form-button{
+  width: 150px !important;
+  padding: 10px !important;
+ 
+}
+#signup{
+  color: #fff;
+  background-color: #6dabe4;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+#signup:hover{
+  background-color: #4f8fca;
+}
+
+.signup-image{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signup-image img{
+  width: 300px;
+  height: 300px;
+  height: auto;
+}
+
+.signup-image-link{
+text-decoration: none;
+color: #000;
+
+}
+
+
+
+/*     sign in css start */
+
+
+
+.sign-in{
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 0 auto;
+  /* background-color: red; */
+
+}
+
+.signin-content{
+  display: flex;
+justify-content: space-around;
+align-items: center;
+
+} 
+
+.signin-image{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signin-image img{
+  width: 300px;
+  height: 300px;
+  height: auto;
+}
+
+#signin{
+  color: rgb(255, 255, 255);
+  background-color: #6dabe4;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+#signin:hover{
+  background-color: #4f8fca;
+}
+
+
+
+.loginArrowbtn{
+  color: rgb(9, 27, 1);
+  margin-left: 5px;
+}
+
+
+/* contact css start  */
+
+
+
+
+
+.contact-info-item{
+  width: 100%;
+  /* background-color: #fff; */
+  border: 1px solid rgb(0,0,0,0.05);
+  border-style: inset;
+  margin: 0 10px;
+  padding: 10px !important;
+ 
+
+}
+
+.contact-info-contect{
+  /* background-color: pink !important; */
+  padding: 10px !important;
+}
+
+.contact_icon{
+  /* color: aqua; */
+  margin-left: 30px !important;
+}
+.phone-icon-cantact{
+  color: green !important;
+}
+
+.email-icon-cantact{
+  color: burlywood;
+}
+
+.contact-info-title{
+  color: #000;
+}
+
+.contact-info-text{
+  color: #999;
+  font-size: 12px !important;
+}
+
+
+/* contact form css */
+
+.contact_form_title{
+  font-size: 25px !important;
+}
+
+
+.text_field{
+    width: 100%; 
+  outline-color: rgba(246, 0, 94, 0.05) !important; 
+
+}
+
+
+
+
+
+
+
+
+
+
+.contact_submit_button{
+  color: #fff;
+  background-color: #6dabe4;
+  padding: 10px;
+  font-weight: 700;
+  border-style: none;
+  border-radius: 5px;
+}
+
+
+
+
+/* Home page scc start */
+
+ 
+.home-page{
+  height: 90vh;
+  background-image: linear-gradient(90deg, #ecf0ff 50% #fff 50%);
+  /* display: flex; */
+  /* justify-content:end; */
+  text-align: center;
+  /* background-color: blue; */
+  
+}
+
+.home-div{
+  width: 50vw;
+  height: 90vh;
+  background-color:rgb(240, 242, 245);
+  
+}
+
+.userName{
+  color: rgb(0, 162, 255);
+  position: relative;
+  left: 50%;
+  top: 50%;
+  font-size: 50px !important;
+  font-weight: 600 !important;
+  text-transform: capitalize !important;
+  
+  
+}
+
+.home-div #home-para,#home-header{
+  color: #fff;
+  position: relative;
+  left: 50%;
+  top: 50%;
+}
+.home-div #home-para{
+  color: rgb(0, 0, 255);
+}
+.home-div #home-header{
+  color: #000;
+}
+
+
+
+/* ABOUT SECTION CSS START */
+
+
+/* upper section css here */
+
+
+
+.profile-head h6{
+  color: rgb(0, 110, 255);
+}
+
+.profile-rating{
+  color:rgba(88, 77, 77, 0.739);
+}
+
+.profile-edit-btn{
+  border-radius: 10px;
+  padding: 10px;
+  width: 130px;
+}
+
+.profile-img{ 
+  object-fit: cover;
+}
+.profile-img img{
+  width:50% ;
+  height:50%;
+  object-fit:cover;
+}
+
+
+
+
+
+
+/* bottom section css here */
+
+.profile-work{
+  display: flex;
+  /* border: 2px solid black; */
+ 
+  flex-direction: column;
+}
+
+.profile-work a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 15px;
+  border: 1px solid black;
+  padding: 5px;
+  width: 40%;
+  text-align: center;
+  box-shadow: 5px 5px 0.7px rgb(246, 90, 0);
+}
+
+
+.profile-work a:hover{
+  color: #003cff;
+}
+
+
+
+
+.tab-blue-color{
+  color: rgb(19, 178, 241);
+}
+
+
+
+/* 404 Error page css start */
+
+#notfound{
+position: relative;
+height: 100vh;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.notfound{
+  max-width: 920px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.notfound .notfound-404 {
+  position: absolute;
+  height: 100px;
+  top: 0px;
+  left: 50%;
+  z-index: -1;
+}
+.notfound .notfound-404 h1 {
+  font-family: monospace;
+  color: #ececec;
+  font-weight: 900;
+  font-size: 276px;
+  margin: 0px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% ,-50%);
+
+}
+.notfound h2 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 46px;
+  color: #000;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0px;
+}
+.notfound p {
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.notfound a {
+  font-family: 'Poppins';
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #189cf0;
+  display:inline-block;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 400;
+  transition: 0.2s all;
+  padding: 10px;
+}
+
+.notfound a:hover {
+  background: #fff;
+  border-color: #189cf0;
+  color: #189cf0;
+}
+
+
