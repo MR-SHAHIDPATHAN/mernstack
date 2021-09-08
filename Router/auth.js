@@ -10,10 +10,7 @@ const User = require("../model/userSchema");
 
 
 
-router.get("/", (req, res)=>{
-  res.send("welcome to homepage again")
-  
-  });
+
   
   
   
