@@ -20,10 +20,10 @@ app.use(require("./Router/auth"))
 
 //
 
-    app.get("/", (req, res)=>{
-    res.send("welcome to homepage again")
+    // app.get("/", (req, res)=>{
+    // res.send("welcome to homepage again")
     
-    });
+    // });
     
     // app.get("/about", (req,res )=>{
     //    res.send("welcome to about page")
@@ -35,14 +35,14 @@ app.use(require("./Router/auth"))
     // })
     
     
-    app.get("/signin",(req,res)=>{
-        res.send("welcome to login page")
+    // app.get("/signin",(req,res)=>{
+    //     res.send("welcome to login page")
     
-    })
+    // })
     
-    app.get("/signup", (req, res)=>
-    res.send("welcome to  register page")
-    )
+    // app.get("/signup", (req, res)=>
+    // res.send("welcome to  register page")
+    // )
 
 
 
